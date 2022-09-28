@@ -10,7 +10,7 @@ const Exercises = () => {
             .then(data => setExercises(data))
     }, [])
     return (
-        <div>
+        <div className='exercises-cart-container'>
             {
                 exercises.map(exercise => <Exercise
                     exercise={exercise}

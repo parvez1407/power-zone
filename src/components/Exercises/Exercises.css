@@ -1,0 +1,7 @@
+.exercises-cart-container {
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+  margin-right: 10%;
+}
