@@ -1,0 +1,9 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.exercises-container {
+  margin-left: 14%;
+  margin-top: 6%;
+}
