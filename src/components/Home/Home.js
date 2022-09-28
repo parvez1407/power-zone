@@ -17,7 +17,7 @@ const Home = () => {
                     <Exercises></Exercises>
                 </div>
             </div>
-            <div className='info-cart'>
+            <div className='info-cart p-6 bg-slate-100'>
                 <ActivityDetails></ActivityDetails>
             </div>
         </div>
