@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import logo from '../../logo.png'
+import Exercises from '../Exercises/Exercises';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
                 </div>
                 <div className='all-exercises'>
                     <h2 className='text-2xl mt-7 font-bold text-slate-700'>Select Your Activity</h2>
+                    <Exercises></Exercises>
                 </div>
             </div>
             <div className='info-cart'>
