@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './ActivityDetails.css';
 import nahid from '../../nahid-p.jpg';
+import Swal from 'sweetalert2'
+
 
 const ActivityDetails = ({ count }) => {
     const [time, setTime] = useState([]);
@@ -21,10 +23,12 @@ const ActivityDetails = ({ count }) => {
     }
 
     const handleExercise = () => {
-
+        Swal.fire(
+            'WoW, Great!',
+            'Today Your All Activity Completed!',
+            'success'
+        )
     }
-
-
 
     return (
         <div>
